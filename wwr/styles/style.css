@@ -186,6 +186,106 @@ nav {
     opacity: .6;
     transform: scale(1.1);
 }
+.faq-title {
+    color: #d9c2a3;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 50px;
+}
+.faq-msg {
+    background-color: black;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+    color: #d9c2a3;
+    margin: 50px;
+}
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.faq-rafting1 {
+    margin: 100px 0;
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
+    z-index: -1;
+}
+.faq-rafting2 {
+    margin: 100px 0;
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 10/13;
+    box-shadow: 5px 5px 10px #6f7364;
+    z-index: -1;
+}
+.faq-rafting3 {
+    margin: 100px 0;
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 15/18;
+    box-shadow: 5px 5px 10px #6f7364;
+    z-index: -1;
+}
+.canyon {
+    margin: 100px 0;
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 20/23;
+    box-shadow: 5px 5px 10px #6f7364;
+    z-index: -1;
+}
+.deer-creek {
+    margin: 100px 0;
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 25/28;
+    box-shadow: 5px 5px 10px #6f7364;
+    z-index: -1;
+}
+.faq-msg2 {
+    background-color: black;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 11/12;
+    box-shadow: 5px 5px 10px #6f7364;
+    color: #d9c2a3;
+    margin: 50px;
+}
+.faq-msg3 {
+    background-color: black;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 16/17;
+    box-shadow: 5px 5px 10px #6f7364;
+    color: #d9c2a3;
+    margin: 50px;
+}
+.faq-msg4 {
+    background-color: black;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 21/22;
+    box-shadow: 5px 5px 10px #6f7364;
+    color: #d9c2a3;
+    margin: 50px;
+}
+.faq-msg5 {
+    background-color: black;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 26/27;
+    box-shadow: 5px 5px 10px #6f7364;
+    color: #d9c2a3;
+    margin: 50px;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -221,7 +321,7 @@ nav {
     #background {
         display: none;
     }
-    .mountains, .msg {
+    .mountains, .msg, .faq-msg {
         width: 80%;
         display: block;
         margin: 0 auto;
